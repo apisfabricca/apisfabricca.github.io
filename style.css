@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ApisFabricca-v2.3
+	    ApisFabricca-v2.4
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -11,9 +11,8 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a,button{transition: all .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 a:hover{text-decoration: none; cursor:pointer;}
-
-a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 #page-loading-blocs-notifaction{position: fixed;top: 0;bottom: 0;width: 100%;z-index:100000;background:#FFFFFF url("img/pageload-spinner.gif") no-repeat center center;}
 
@@ -55,7 +54,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bloc-fill-screen{
 	padding-top:0;
 	position: relative;
-	height: inherit;
+	height:100vh;
 }
 .bloc-fill-screen > .container{
 	position:relative;
@@ -111,15 +110,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	width:100%;
 	height:auto;
 }
+.full-width-bloc .navbar{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 
 /* Group Styles */
 
 .bloc-group{
 	display:flex;
-}
-.bloc-group .bloc{
-	flex: 1;
 }
 .bloc-tile-2{
 	width:50%;
@@ -258,29 +258,29 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-4 h2{
+#bloc-3 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-4 h3{
+#bloc-3 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 22px;
 }
-#bloc-5 h2{
+#bloc-6 h2{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-6 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+	font-size: 22px;
+}
+#bloc-7 h2{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-5 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-	font-size: 22px;
-}
-#bloc-9 h2{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-9 h3{
+#bloc-7 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 22px;
@@ -292,12 +292,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-11 h3{
 	font-weight: 100;
 	font-family: Helvetica;
+	font-size: 22px;
 }
-#bloc-15 h2{
+#bloc-13 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-15 h3{
+#bloc-13 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -305,85 +306,81 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-18 h3{
+#bloc-17 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-18 p{
-	font-weight: 300;
-	font-family: Helvetica;
-	font-size: 16px;
-}
-#bloc-18 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-19 h3{
-	font-weight: 300;
+#bloc-19 h2{
+	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-20 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-21 h1{
+#bloc-20 p{
+	font-weight: 300;
+	font-family: Helvetica;
+	font-size: 16px;
+}
+#bloc-20 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-22 h1{
+#bloc-21 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-23 h3{
+#bloc-22 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-23 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-24 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
 #bloc-25 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-26 h1{
 	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-27 h2{
-	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-27 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-28 h1{
 	font-weight: 300;
 	font-family: Helvetica;
-	font-size: 24px;
 }
-#bloc-27 p{
+#bloc-29 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-29 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+	font-size: 24px;
+}
+#bloc-29 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-30 h1{
+#bloc-31 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-32 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-31 h2{
+#bloc-33 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-31 p{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-33 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-34 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-35 h2{
+#bloc-33 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -391,27 +388,36 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-35 p{
+#bloc-36 h1{
 	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-37 h2{
+	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-37 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-38 h1{
+#bloc-37 p{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-39 h2{
+#bloc-37 h3{
 	font-weight: 100;
 	font-family: Helvetica;
+	font-size: 24px;
 }
 #bloc-39 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-39 p{
+#bloc-40 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-41 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -419,71 +425,109 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-42 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-43 h2{
+#bloc-41 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-43 p{
+#bloc-41 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+	font-size: 24px;
+}
+#bloc-43 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-44 h3{
+#bloc-44 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-45 h3{
+#bloc-45 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-46 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-47 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-48 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-51 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-51 p{
+#bloc-45 p{
 	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-46 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-47 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-48 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-49 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-50 h3{
+	font-weight: 300;
 	font-family: Helvetica;
 }
 #bloc-52 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-52 h5{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-53 h3{
+#bloc-53 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-53 h5{
+#bloc-54 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-54 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+	font-size: 24px;
+}
+#bloc-54 p{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-54 h5{
+#bloc-54 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-55 h6{
+#bloc-57 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-57 p{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-58 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-58 h5{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-59 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-59 h5{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-60 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-60 h5{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-61 h6{
 	font-weight: 300;
 	font-family: Josefin Sans;
 }
@@ -507,6 +551,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	max-height: 200px;
 	margin: 0 5px 0 0;
 	display:inline;
+}
+.navbar-brand img[src$=svg]{
+	min-width:100px;
 }
 .nav-center .navbar-brand img{
 	margin:0;
@@ -546,6 +593,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .nav-invert .navbar-header, .nav-invert .navbar-brand{
 	float:right;
+	position:relative;
+	z-index:2;
 }
 @media (min-width: 768px){
 	.site-navigation{
@@ -575,6 +624,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	.nav-center .site-navigation{
 		position:relative;
 		width:100%;
+		right:0;
+		margin-right:0px;
 		margin-top:20px;
 	}
 .nav-center.mini-nav .navbar-toggle{
@@ -670,11 +721,6 @@ button{
 	background:transparent!important;
 	border:2px solid transparent;
 }
-.btn .caret{
-	margin:0 0 0 5px}.dropdown a .caret{
-	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
-	padding: 3px 20px;
-}
 
 
 
@@ -711,11 +757,6 @@ button{
 	box-shadow:none;
 }
 
-/* iFrame */
-
-iframe{
-	border:0;
-}
 
 
 /* ScrollToTop button */
@@ -767,12 +808,17 @@ a[data-lightbox]:hover img{
 	-webkit-animation-fill-mode: none;
 	animation-fill-mode:none;
 }
+#lightbox-modal{
+	display: flex;
+	align-items: center;
+}
 #lightbox-modal .modal-dialog{
 	width:90%;
 	max-width:900px;
-	margin:30px auto 0;
+	margin:0 auto 0;
 }
 #lightbox-modal .modal-dialog img{
+	max-height:90vh;
 	margin: 0 auto;
 }
 .lightbox-caption{
@@ -785,29 +831,39 @@ a[data-lightbox]:hover img{
 	bottom: 5px;
 }
 .close-lightbox{
-	display: none;
-	font-size: 40px;
+	color:#FFF;
+	font-size: 30px;
 	position: absolute;
-	top:8px;
+	top:20px;
 	right:20px;
 	z-index: 20;
+	background:rgba(0,0,0,.5);
+	border:none;
+	line-height: 30px;
+	padding:0 9px 5px;
+	opacity: 0.3;
+}
+.close-lightbox:hover,.next-lightbox:hover, .prev-lightbox:hover{
+	opacity: 1.0;
+	color:#FFF;
 }
 .next-lightbox, .prev-lightbox{
 	font-size:20px;
-	color:rgba(255,255,255,.4);
+	color:rgba(255,255,255,.9);
+	background:rgba(0,0,0,.5);
 	transition: all .2s ease-in-out;
 	position: absolute;
-	top:50%;
+	top:45%;
 	z-index:1;
+	opacity: 0.4;
 }
 .next-lightbox{
+	padding:6px 8px 1px 13px;
 	right:25px;
 }
 .prev-lightbox{
+	padding:6px 13px 1px 10px;
 	left:25px;
-}
-.prev-lightbox:hover, .next-lightbox:hover{
-	color:rgba(255,255,255,.9);
 }
 
 /* = Custom Styling
@@ -848,6 +904,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
+
 /* Text colour styles */
 
 .tc-white{
@@ -862,6 +919,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-tiffany-blue{
 	color:#1BBDBD!important;
 }
+
 /* Button colour styles */
 
 .btn-outer-space{
@@ -903,6 +961,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
+
 /* = Mobile adjustments 
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
@@ -926,13 +985,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
-@media (max-width: 768px)
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {.b-parallax{background-attachment:scroll;}}
+@media (max-width: 991px)
 {
     .container{width:100%;}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
+    .bloc{padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);} /* iPhone X Notch Support*/
     .bloc-group, .bloc-group .bloc{display:block;width:100%;}
-    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{padding-left: 10px;padding-right: 10px;}
+    .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{padding:0 20px;padding-left: constant(safe-area-inset-left);padding-right: constant(safe-area-inset-right);}
 }
 @media (max-width: 767px)
 {
@@ -943,15 +1004,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     h1,h2,h3,h4,h5,h6,p,#disqus_thread{
         padding-left:10px!important; 
         padding-right:10px!important; 
-    }
-    #hero-bloc h1{
-        font-size:40px;
-    }
-    #hero-bloc h2{
-        font-size:34px;
-    }
-    #hero-bloc h3{
-        font-size:25px;
     }
     .b-parallax{
         background-attachment:scroll;
@@ -1020,6 +1072,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     }
     .nav-invert .navbar-toggle{
         float:left; 
+        margin-left:10px;
+    }
+    .bloc{
+        padding-left: 0; 
+        padding-right: 0;
     }
     .bloc-xxl,.bloc-xl,.bloc-lg{
         padding: 40px 0;
@@ -1027,6 +1084,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
     .bloc-sm,.bloc-md{
         padding-left: 0; 
         padding-right: 0;
+    }
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container, .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge{
+        padding-left:0;padding-right:0;
     }
     .a-block{
         padding:0 10px;
@@ -1068,21 +1128,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 {    
     .bloc{
         padding-left: 0; 
-        padding-right: 0;  
-        -webkit-background-size: auto 200%;
-        -moz-background-size: auto 200%;
-        -o-background-size: auto 200%;
-        background-size: auto 200%;
+        padding-right: 0;
     }
 }
 
-@media (max-width: 768px){
-	.bloc-group-text-vc, .mobile .bloc-group-text-vc{
+@media (max-width: 991px){
+	.bloc-group-text-vc{
 	margin-top:0%;
 }
  }
 /* Drop Down Navigation */
-@media (min-width: 767px) and (max-width: 768px){
+@media (min-width: 767px) and (max-width: 991px){
 	
 .mini-nav .special-dropdown-nav .site-navigation{
 	display: block;
@@ -1115,7 +1171,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color: rgba(0,0,0,.6)!important;
 }
  }
-@media (max-width: 420px){
+@media (max-width: 767px){
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
