@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    ApisFabricca-v2.4
+	    ApisFabricca-v2.5
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -258,29 +258,29 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-3 h2{
+#bloc-4 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-3 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-	font-size: 22px;
-}
-#bloc-6 h2{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-6 h3{
+#bloc-4 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 22px;
 }
-#bloc-7 h2{
+#bloc-5 h2{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-7 h3{
+#bloc-5 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+	font-size: 22px;
+}
+#bloc-9 h2{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-9 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 22px;
@@ -292,13 +292,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-11 h3{
 	font-weight: 100;
 	font-family: Helvetica;
-	font-size: 22px;
 }
-#bloc-13 h2{
+#bloc-15 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-13 h3{
+#bloc-15 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -306,81 +305,85 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-17 h3{
+#bloc-18 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-19 h2{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-20 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-20 p{
+#bloc-18 p{
 	font-weight: 300;
 	font-family: Helvetica;
 	font-size: 16px;
 }
+#bloc-18 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-19 h3{
+	font-weight: 300;
+	font-family: Helvetica;
+}
 #bloc-20 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-21 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-22 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-23 h1{
+#bloc-21 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-24 h1{
+#bloc-22 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-23 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
 #bloc-25 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-26 h1{
 	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-27 h2{
+	font-weight: 100;
 	font-family: Helvetica;
 }
 #bloc-27 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-28 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-29 h2{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-29 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 	font-size: 24px;
 }
-#bloc-29 p{
+#bloc-27 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-31 h3{
+#bloc-29 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-32 h1{
+#bloc-30 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-33 h2{
+#bloc-31 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-33 p{
+#bloc-31 p{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-33 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-34 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-35 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -388,85 +391,94 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-36 h1{
+#bloc-35 p{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-37 h2{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-37 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-37 p{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-37 h3{
+#bloc-35 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 24px;
+}
+#bloc-37 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-38 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-39 h2{
+	font-weight: 100;
+	font-family: Helvetica;
 }
 #bloc-39 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-40 h1{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-41 h2{
+#bloc-39 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-41 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-41 p{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-41 h3{
+#bloc-39 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 	font-size: 24px;
 }
-#bloc-43 h3{
+#bloc-41 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-44 h1{
+#bloc-42 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-45 h2{
+#bloc-43 h2{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-45 p{
+#bloc-43 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-46 h3{
+#bloc-44 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-47 h3{
+#bloc-45 h3{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-48 h1{
+#bloc-46 h1{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-49 h1{
+#bloc-47 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-48 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
 #bloc-50 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-51 h1{
+	font-weight: 300;
+	font-family: Helvetica;
+}
+#bloc-52 h2{
+	font-weight: 100;
+	font-family: Helvetica;
+}
+#bloc-52 h3{
+	font-weight: 100;
+	font-family: Helvetica;
+	font-size: 24px;
+}
+#bloc-52 p{
 	font-weight: 300;
 	font-family: Helvetica;
 }
@@ -474,24 +486,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-53 h1{
+#bloc-55 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-54 h2{
+#bloc-55 p{
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-54 h3{
-	font-weight: 100;
-	font-family: Helvetica;
-	font-size: 24px;
-}
-#bloc-54 p{
+#bloc-56 h3{
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-54 h3{
+#bloc-56 h5{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -499,7 +506,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 300;
 	font-family: Helvetica;
 }
-#bloc-57 p{
+#bloc-57 h5{
 	font-weight: 100;
 	font-family: Helvetica;
 }
@@ -511,23 +518,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-weight: 100;
 	font-family: Helvetica;
 }
-#bloc-59 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-59 h5{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-60 h3{
-	font-weight: 300;
-	font-family: Helvetica;
-}
-#bloc-60 h5{
-	font-weight: 100;
-	font-family: Helvetica;
-}
-#bloc-61 h6{
+#bloc-59 h6{
 	font-weight: 300;
 	font-family: Josefin Sans;
 }
