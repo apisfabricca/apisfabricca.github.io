@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Apis Fabricca, Apis Fabrica, απις φαμπρικα, Το εργοστάσιο της μέλισσας, Κηραλοιφές, Κεραλοιφές, Ελληνικά χειροποίητα φυσικά καλλυντικά, Φυσικά Καλλυντικά, Φυτικά Καλλυντικά, Χειροποίητα Καλλυντικά, Λέσβος, Μανταμάδος, Κάπη, Λιπ μπαλμ, Lip balm, Φυτικές κρέμες, Ενυδατικές κρέμες, Body lotion, Έλαια Περιποίησης, Έλαια, Έλαια νυχιών, Έλαια μαλλιών, Άλατα, Scrub, 2253061051, Νικολέτα Ευαγγέλου, Κώστας Γιαννακού">
@@ -8,18 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?3642">
+	<link rel="stylesheet" type="text/css" href="style.css?2141">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
     <title>Αρχική - Apis Fabricca</title>
 
+
     
-<!-- Google Analytics -->
+<!-- Analytics -->
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +27,7 @@
   ga('send', 'pageview');
 
 </script>
-<!-- Google Analytics END -->
+<!-- Analytics END -->
     
 </head>
 <body>
@@ -40,14 +37,12 @@
 <!-- bloc-0 -->
 <div class="bloc bloc-fill-screen bg-welcome-hero-image1920-cmprssd b-parallax bgc-white l-bloc" id="bloc-0">
 	<div class="container fill-bloc-top-edge">
-		<nav class="navbar row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/apis-logo256.png" alt="apis fabricca logo" width="128" height="66" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+		<nav class="navbar row navbar-light navbar-expand-md" role="navigation">
+			<a class="navbar-brand" href="index.html"><img src="img/lazyload-ph.png" data-src="img/apis-logo256.png" alt="apis fabricca logo" width="128" height="66" class="lazyload" /></a>
+			<button id="nav-toggle" type="button" class="ui-navbar-toggler navbar-toggler border-0 p-0 mr-md-0" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse navbar-1">
 			</div>
 		</nav>
 	</div>
@@ -57,14 +52,14 @@
 				<h1 class="text-center hero-bloc-text">
 					<br>
 				</h1>
-				<h3 class="text-center mg-lg hero-bloc-text-sub  tc-white">
+				<h3 class="text-center mg-lg hero-bloc-text-sub tc-white bloc-0-h3">
 					<br> <br> <br>Φυσικά καλλυντικά από το εργοστάσιο της μέλισσας
 				</h3>
 				<div class="text-center">
-					<a class="btn-wire btn btn-lg hidden-sm hidden-xs wire-btn-white" onclick="scrollToTarget('#bloc-1')">Περισσότερα</a>
+					<a class="btn-wire btn btn-lg wire-btn-white d-lg-block d-md-none  d-none" onclick="scrollToTarget('#bloc-1',this)" data-scroll-speed="1000" href="#">Περισσότερα</a>
 				</div>
 				<div class="text-center">
-					<a class="btn-wire btn btn-lg wire-btn-white hidden-lg hidden-md" onclick="scrollToTarget('#bloc-3')">Περισσότερα</a>
+					<a class="btn-wire btn btn-lg wire-btn-white d-lg-none d-xl-none d-block" onclick="scrollToTarget('#bloc-3',this)" data-scroll-speed="1000" href="#">Περισσότερα</a>
 				</div>
 			</div>
 		</div>
@@ -72,7 +67,9 @@
 	<div class="container fill-bloc-bottom-edge">
 		<div class="row">
 			<div class="col-sm-12">
-				<a id="scroll-hero" class="blocs-hero-btn-dwn" href="#"><span class="fa fa-chevron-down"></span></a>
+				<div class="text-center">
+					<a href="#" onclick="scrollToTarget('0',this)" data-scroll-speed="1000"><span class="fa fa-chevron-down icon-md"></span></a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -80,12 +77,12 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc bg-welcome-hero-image1920ΒΚ-cmprssd b-parallax hidden-xs hidden-sm bgc-white l-bloc" id="bloc-1">
+<div class="bloc bg-welcome-hero-image1920ΒΚ-cmprssd b-parallax bgc-white l-bloc d-lg-block d-md-none  d-none" id="bloc-1">
 	<div class="container bloc-md">
-		<div class="row row-no-gutters">
+		<div class="row no-gutters">
 			<div class="col-sm-12">
-				<img src="img/apis-logo-textonly.png" class="img-responsive" width="500" />
-				<h3 class="mg-md  tc-white">
+				<img src="img/lazyload-ph.png" data-src="img/apis-logo-textonly.png" class="img-fluid lazyload" width="500" />
+				<h3 class="mg-md tc-white bloc-1-h3">
 					<br>Το εργοστάσιο της μέλισσας.<br>Ελληνικά χειροποίητα&nbsp;φυσικά καλλυντικά <br>φτιαγμένα με αγάπη και αγνές πρώτες ύλες <br>από παραδοσιακές συνταγές&nbsp;της Λέσβου.
 				</h3>
 			</div>
@@ -95,13 +92,13 @@
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
-<div class="bloc b-parallax full-width-bloc bgc-white bg-welcome-hero-image1920-cmprssd hidden-sm hidden-xs l-bloc" id="bloc-2">
+<div class="bloc b-parallax full-width-bloc bgc-white bg-welcome-hero-image1920-cmprssd l-bloc d-lg-block d-md-none  d-none" id="bloc-2">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="hero-bloc-text  text-right hidden-sm hidden-xs tc-white">
+				<h1 class="hero-bloc-text text-right tc-white d-lg-block d-md-none  d-none bloc-2-h1">
 					Τα προϊόντα μας &nbsp; &nbsp;
-				</h1><img src="img/Products-arrow.png" class="img-responsive pull-right" width="200" /><img src="img/Section-UP1.png" class="img-responsive" />
+				</h1><img src="img/lazyload-ph.png" data-src="img/Products-arrow.png" class="img-fluid float-right lazyload" width="200" /><img src="img/lazyload-ph.png" data-src="img/Section-UP1.png" class="img-fluid lazyload" />
 			</div>
 		</div>
 	</div>
@@ -109,14 +106,16 @@
 <!-- bloc-2 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-3 -->
 <div class="bloc bgc-white bloc-tile-2 l-bloc" id="bloc-3">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/K-GRP-3-960px.png" class="img-responsive pull-right" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/K-GRP-3-960px.png" class="img-fluid float-right lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -128,13 +127,13 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md  tc-outer-space">
+				<h2 class="mg-md tc-outer-space bloc-4-h2">
 					Κηραλοιφές
 				</h2>
-				<h3 class="mg-md ">
+				<h3 class="mg-md bloc-4-h3">
 					Το φυσικό κερί μέλισσας, πασίγνωστο για την ανάπλαση του δέρματος, το αγνό παρθένο ελαιόλαδο, για τα ενυδατικά του χαρακτηριστικά και οι πλούσιες ιδιότητες των αιθέριων ελαίων, προσδίδουν στις κηραλοιφές θρεπτική, ενυδατική, επουλωτική, αντιγηραντική και καταπραϋντική δράση. <br>
 				</h3>
-				<h3 class="mg-md ">
+				<h3 class="mg-md bloc-4-h3">
 					Ιδανικές για καψίματα, κοψίματα, συγκάματα, εκζέματα, σκασμένα χείλη και ξηροδερμίες. Κατάλληλες για όλες τις ηλικίες, ακόμα και για μωρά, λόγω των 100% φυσικών συστατικών τους.&nbsp;<br><br>
 				</h3><a href="κηραλοιφες.html" class="btn btn-outer-space">Περισσότερα</a>
 			</div>
@@ -146,19 +145,21 @@
 <!-- Bloc Group END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-5 -->
 <div class="bloc bloc-tile-2 bgc-white l-bloc" id="bloc-5">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md  text-right tc-outer-space">
+				<h2 class="mg-md text-right tc-outer-space bloc-5-h2">
 					Lip balm
 				</h2>
-				<h3 class="mg-md  text-right">
+				<h3 class="mg-md text-right bloc-5-h3">
 					Πλούσια ενυδάτωση και προστασία. <br>Προσδίδει στα χείλη φυσική απαλότητα αποτρέποντας ξεφλούδισμα και ξηρότητα.<br><br>
-				</h3><a href="lipbalm.html" class="btn pull-right btn-outer-space">Περισσότερα</a>
+				</h3><a href="lipbalm.html" class="btn btn-outer-space float-right">Περισσότερα</a>
 			</div>
 		</div>
 	</div>
@@ -170,7 +171,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/LB-GRP-1-960px.png" class="img-responsive" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/LB-GRP-1-960px.png" class="img-fluid lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -184,7 +185,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/APIS-HR-LINE-LU-RD.png" class="img-responsive center-block" width="640" />
+				<img src="img/lazyload-ph.png" data-src="img/APIS-HR-LINE-LU-RD.png" class="img-fluid mx-auto d-block lazyload" width="640" />
 			</div>
 		</div>
 	</div>
@@ -192,14 +193,16 @@
 <!-- bloc-7 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-8 -->
 <div class="bloc bgc-white bloc-tile-2 l-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/CRM-GRP-1-960px.png" class="img-responsive pull-right" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/CRM-GRP-1-960px.png" class="img-fluid float-right lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -211,10 +214,10 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md  tc-outer-space">
+				<h2 class="mg-md tc-outer-space bloc-9-h2">
 					Φυτικές κρέμες
 				</h2>
-				<h3 class="mg-md ">
+				<h3 class="mg-md bloc-9-h3">
 					Λεπτή υφή για ενυδάτωση του προσώπου και του σώματος. Ιδανική για τόνωση και πλούσια ενυδάτωση&nbsp;της επιδερμίδας όποια στιγμή της ημέρας το χρειάζεται.&nbsp;<br><br>
 				</h3><a href="ενυδατικες.html" class="btn btn-outer-space">Περισσότερα</a>
 			</div>
@@ -230,7 +233,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/APIS-HR-LINE-LD-RU.png" class="img-responsive center-block" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/APIS-HR-LINE-LD-RU.png" class="img-fluid mx-auto d-block lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -238,19 +241,21 @@
 <!-- bloc-10 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-11 -->
 <div class="bloc bloc-tile-2 bgc-white l-bloc" id="bloc-11">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md  text-right tc-outer-space">
+				<h2 class="mg-md text-right tc-outer-space bloc-11-h2">
 					Έλαια περιποίησης&nbsp;
 				</h2>
-				<h3 class="mg-md  text-right">
+				<h3 class="mg-md text-right bloc-11-h3">
 					Φυτικά έλαια&nbsp;για ενυδάτωση, ενδυνάμωση και επανόρθωση.<br><br>
-				</h3><a href="ελαια.html" class="btn pull-right btn-outer-space">Περισσότερα</a>
+				</h3><a href="ελαια.html" class="btn btn-outer-space float-right">Περισσότερα</a>
 			</div>
 		</div>
 	</div>
@@ -262,7 +267,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/OIL-GRP-1-960px.png" class="img-responsive" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/OIL-GRP-1-960px.png" class="img-fluid lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -276,7 +281,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/APIS-HR-LINE-LU-RD.png" class="img-responsive center-block" width="640" />
+				<img src="img/lazyload-ph.png" data-src="img/APIS-HR-LINE-LU-RD.png" class="img-fluid mx-auto d-block lazyload" width="640" />
 			</div>
 		</div>
 	</div>
@@ -284,14 +289,16 @@
 <!-- bloc-13 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-14 -->
 <div class="bloc bloc-tile-2 bgc-white l-bloc" id="bloc-14">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/SCR-GRP-3-960px.png" class="img-responsive pull-right" width="480" />
+				<img src="img/lazyload-ph.png" data-src="img/SCR-GRP-3-960px.png" class="img-fluid float-right lazyload" width="480" />
 			</div>
 		</div>
 	</div>
@@ -303,10 +310,10 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md  tc-outer-space">
+				<h2 class="mg-md tc-outer-space bloc-15-h2">
 					Scrub
 				</h2>
-				<h3 class="mg-md ">
+				<h3 class="mg-md bloc-15-h3">
 					Απολεπίζει το δέρμα αφαιρώντας τα νεκρά κύτταρα, αφήνοντας την επιδερμίδα απαλή και ενυδατωμένη. <br><br>
 				</h3><a href="scrub.html" class="btn btn-outer-space">Περισσότερα</a>
 			</div>
@@ -318,11 +325,11 @@
 <!-- Bloc Group END -->
 
 <!-- bloc-16 -->
-<div class="bloc bg-APIS-CONTACT-MAP-1920 b-parallax hidden-xs hidden-sm bgc-white full-width-bloc l-bloc" id="bloc-16">
+<div class="bloc bg-APIS-CONTACT-MAP-1920 b-parallax bgc-white full-width-bloc l-bloc d-lg-block d-md-none  d-none" id="bloc-16">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/Section-UP2-2.png" class="img-responsive" /><img src="img/Section-DOWN2-2.png" class="img-responsive" />
+				<img src="img/lazyload-ph.png" data-src="img/Section-UP2-2.png" class="img-fluid lazyload" /><img src="img/lazyload-ph.png" data-src="img/Section-DOWN2-2.png" class="img-fluid lazyload" />
 			</div>
 		</div>
 	</div>
@@ -330,14 +337,16 @@
 <!-- bloc-16 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
+
+<!-- Bloc Group -->
+<div class="bloc-group">
 
 <!-- bloc-17 -->
 <div class="bloc bgc-white bloc-tile-2 l-bloc" id="bloc-17">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="bloc-group-text-vc  mg-clear text-right tc-outer-space">
+				<h2 class="bloc-group-text-vc mg-clear text-right tc-outer-space bloc-17-h2">
 					<a href="επικοινωνια.html">Επικοινωνία</a><br>
 				</h2>
 			</div>
@@ -353,22 +362,22 @@
 			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-12">
-						<h3 class="mg-sm  tc-outer-space">
+						<h3 class="mg-sm tc-outer-space bloc-18-h3">
 							Ταχυδρομικά
 						</h3>
-						<p class="mg-lg ">
+						<p class="mg-lg bloc-18-p">
 							Πλατεία Μανταμάδου, 81104, Λέσβος
 						</p>
-						<h3 class="mg-sm  tc-outer-space">
+						<h3 class="mg-sm tc-outer-space bloc-18-h3">
 							Τηλεφωνικά
 						</h3>
-						<p class="mg-lg ">
+						<p class="mg-lg bloc-18-p">
 							<a href="tel:2253061051">2253061051</a>&nbsp;καθημερινά από τις 9 το πρωί έως τις 2 το μεσημέρι.
 						</p>
-						<h3 class="mg-sm  text-left tc-outer-space">
+						<h3 class="mg-sm text-left tc-outer-space bloc-18-h3">
 							Ηλεκτρονικά
 						</h3>
-						<p class="mg-lg  text-left">
+						<p class="mg-lg text-left bloc-18-p">
 							Οποιαδήποτε στιγμή της ημέρας, 7 ημέρες την εβδομάδα.<br>
 						</p><a href="επικοινωνια.html" class="btn btn-outer-space">Φόρμα Επικοινωνίας<br></a>
 					</div>
@@ -382,143 +391,149 @@
 <!-- Bloc Group END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
-<!-- Footer - bloc-53 -->
-<div class="bloc hidden-xs hidden-sm full-width-bloc bg-welcome-hero-image1920-cmprssd b-parallax bgc-white l-bloc" id="bloc-53">
+<!-- bloc-53 -->
+<div class="bloc full-width-bloc bg-welcome-hero-image1920-cmprssd b-parallax bgc-white l-bloc d-lg-block d-md-none  d-none" id="bloc-53">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="img/Section-UP2.png" class="img-responsive" /><img src="img/Section-DOWN2.png" class="img-responsive" />
+				<img src="img/lazyload-ph.png" data-src="img/Section-UP2.png" class="img-fluid lazyload" /><img src="img/lazyload-ph.png" data-src="img/Section-DOWN2.png" class="img-fluid lazyload" />
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-53 END -->
+<!-- bloc-53 END -->
 
-<!-- Footer - bloc-54 -->
+<!-- bloc-54 -->
 <div class="bloc full-width-bloc bgc-white l-bloc" id="bloc-54">
 	<div class="container bloc-sm">
-		<div class="row row-no-gutters">
+		<div class="row no-gutters">
 			<div class="col-sm-12">
-				<img src="img/AP-FlyingBee-section.png" class="pull-right" height="120" />
+				<img src="img/lazyload-ph.png" data-src="img/AP-FlyingBee-section.png" class="float-right lazyload" height="120" />
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-54 END -->
+<!-- bloc-54 END -->
 
-<!-- Footer - bloc-55 -->
-<div class="bloc bgc-white l-bloc " id="bloc-55">
+<!-- bloc-55 -->
+<div class="bloc bgc-white l-bloc" id="bloc-55">
 	<div class="container bloc-sm">
 		<div class="row">
-			<div class="col-sm-3">
-				<h3 class="mg-md ">
+			<div class="col-md-3 col-sm-12">
+				<h3 class="mg-md bloc-55-h3">
 					Η ιστορία μας
 				</h3>
-				<p>
+				<p class="bloc-55-p">
 					Στο χωριό Κάπη της Λέσβου, ένα ζευγάρι νέων, ξεκίνησε να ασχολείται με την τέχνη της μελισσοκομίας. Ο Κώστας, μελισσοκόμος δεύτερης γενιάς της οικογένειάς του, και η Νικολέτα, μαθηματικός που την κέρδισε η αγάπη της για το χειροποιείν και τον θαυμαστό κόσμο της μέλισσας, αποφάσισαν να δημιουργήσουν και να προσφέρουν προϊόντα φτιαγμένα με αγάπη και μεράκι από τους θησαυρούς της φύσης.
 				</p>
 			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md ">
+			<div class="col-md-3 col-sm-12">
+				<h3 class="mg-md bloc-55-h3">
 					Η φιλοσοφία μας
 				</h3>
-				<p>
+				<p class="bloc-55-p">
 					Εμπνευσμένοι από συνταγές που βγήκαν απ' το σεντούκι της γιαγιάς, σε συνδυασμό με την επιστημονική γνώση της κοσμετολογίας, δημιουργήσαμε προϊόντα 100% φυσικών συστατικών. Αρχικά γιατί θέλαμε οι ίδιοι, και οι οικογένειές μας, να χρησιμοποιούμε για τις ανάγκες μας φυσικά προϊόντα χωρίς προσθήκη parabens και αντιβιοτικών αλλά και γιατί θέλαμε να γίνει γνωστό στον κόσμο, πως ο πλούτος της φύσης είναι αστείρευτος και αποτελεί την καλύτερη τροφή για την επιδερμίδα μας.
 				</p>
 			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md ">
+			<div class="col-md-3 col-sm-12">
+				<h3 class="mg-md bloc-55-h3">
 					Οι προδιαγραφές μας
 				</h3>
-				<p>
+				<p class="bloc-55-p">
 					Μέλι, κερί, πρόπολη, γύρη και βιολογικό ελαιόλαδο είναι μερικά από τα προϊόντα που ήδη παράγουμε. Έχοντας την άριστη πρώτη ύλη των μελισσιών και της γης μας, αλλά και τις πιστοποιημένες πρώτες ύλες των προμηθευτών μας, δημιουργήσαμε προϊόντα εγγυημένης ποιότητας.&nbsp;Η παρασκευή τους μας γίνεται σύμφωνα με τις οδηγίες της ευρωπαϊκής νομοθεσίας, έχοντας πραγματοποιηθεί όλοι οι απαραίτητοι εργαστηριακοί έλεγχοι ενώ όλες οι φόρμουλες μας έχουν γνωστοποιηθεί στο ευρωπαϊκό σύστημα καταχώρησης καλλυντικών CPNP.<br>
 				</p>
 			</div>
-			<div class="col-sm-3">
-				<h3 class="mg-md ">
+			<div class="col-md-3 col-sm-12">
+				<h3 class="mg-md bloc-55-h3">
 					Οι εγκαταστάσεις μας
 				</h3>
-				<p>
+				<p class="bloc-55-p">
 					Μανταμάδος και Κάπη, στα εύφορα Βόρειοανατολικά τμήματα του νησιού μας, ακριβώς εκεί που το πράσινο της φύσης δένεται αρμονικά με το μπλέ της θάλασσας και δημιουργεί εξαιρετικές συνθήκες για την παραγωγή των πρώτων υλών μας. <br>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-55 END -->
+<!-- bloc-55 END -->
 
 <!-- Bloc Group -->
-<div class='bloc-group'>
 
-<!-- Footer - bloc-56 -->
+<!-- Bloc Group -->
+<div class="bloc-group">
+
+<!-- bloc-56 -->
 <div class="bloc bloc-tile-3 bgc-white l-bloc" id="bloc-56">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h3 class="mg-md  text-center">
+				<h3 class="mg-md text-center bloc-56-h3">
 					Το προϊόντα μας
 				</h3>
-				<h5 class="mg-md  text-center text-w-md">
+				<h5 class="mg-md text-center text-w-md bloc-56-h5">
 					<a href="κηραλοιφες.html">Κηραλοιφές</a>&nbsp;<br> <br><a href="lipbalm.html">Lip Balm &nbsp; <br></a><br> <a href="ενυδατικες.html">Ενυδατικές κρέμες <br></a><br> <a href="ελαια.html">Έλαια περιποίησης <br></a><br><a href="scrub.html">Scrub</a> <br>
 				</h5>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-56 END -->
+<!-- bloc-56 END -->
 
-<!-- Footer - bloc-57 -->
+<!-- bloc-57 -->
 <div class="bloc bloc-tile-3 bgc-white l-bloc" id="bloc-57">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h3 class="mg-md  text-center">
+				<h3 class="mg-md text-center bloc-57-h3">
 					Σημεία πώλησης
 				</h3>
 				<h5 class="mg-md  text-center text-w-md">
 					-&nbsp;<a href="http://www.apisfabricca.gr/">Apis Fabricca, Μανταμάδος</a>&nbsp;<br> <br>-&nbsp;<a href="http://thermaspalesvos.com">Θέρμα SPA, Μυτιλήνη</a>&nbsp; <br> <br>-&nbsp;<a href="https://www.facebook.com/yaloyalo15/">Yalo Yalo Ασπροπόταμος</a><br><br>
 				</h5>
-				<h5 class="mg-md  text-center text-w-md">
+				<h5 class="mg-md text-center text-w-md bloc-57-h5">
 					-&nbsp;<a href="https://www.facebook.com/περί-Λέσβου-Παντοπωλείο-191873024182260/">Παντοπωλείο “περί Λέσβου”, Αθήνα</a>&nbsp;<br> <br>-&nbsp;<a href="https://www.theorganicshop.gr">Κατάστημα "The organic shop”, Αθήνα</a>&nbsp; <br><br>
 				</h5>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-57 END -->
+<!-- bloc-57 END -->
 
-<!-- Footer - bloc-58 -->
+<!-- bloc-58 -->
 <div class="bloc bloc-tile-3 bgc-white l-bloc" id="bloc-58">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h3 class="mg-md  text-center">
+				<h3 class="mg-md text-center bloc-58-h3">
 					<a href="επικοινωνια.html">Επικοινωνία</a><br>
 				</h3>
-				<h5 class="mg-md  text-center text-w-md">
+				<h5 class="mg-md text-center text-w-md bloc-58-h5">
 					Το κατάστημά μας βρίσκεται στην κεντρική πλατεία του Μανταμάδου στη Λέσβο και οι ώρες λειτουργίας του είναι 9πμ με 2μμ καθημερινά. <br> <br>Χαρά μας να σας απαντήσουμε σε οποιοδήποτε ερώτημα, παραγγελία ή πληροφορία συνεργασίας χονδρικής.<br> <br>Apis Fabricca <br>Πλατεία Μανταμάδου<br>81104, Λέσβος <br> <br><a href="tel:2253061051">2253061051 <br></a> <br><a href="επικοινωνια.html">Φόρμα επικοινωνίας</a><br>
 				</h5>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-58 END -->
+<!-- bloc-58 END -->
 </div>
 <!-- Bloc Group END -->
 
-<!-- Footer - bloc-59 -->
+<!-- bloc-59 -->
 <div class="bloc bgc-white build-with-blocs-bloc d-bloc" id="bloc-59">
 	<div class="container bloc-sm b-divider-dashed">
 		<div class="row bgc-white">
-			<div class="col-sm-12 text-center">
-				<a href="https://www.madamadi.gr/" target="_blank"><img src="img/FOOTER-MADEWITHLOVE.png" class="center-block mg-sm" height="60" /></a>
-				<h6 class="mg-md  tc-tiffany-blue text-center">
+			<div class="text-center">
+				<a href="https://www.madamadi.gr/" target="_blank"><img src="img/lazyload-ph.png" data-src="img/FOOTER-MADEWITHLOVE.png" class="mg-sm mx-auto d-block lazyload" height="60" /></a>
+			</div>
+			<div class="text-center">
+				<h6 class="mg-md tc-tiffany-blue text-center bloc-59-h6">
 					<br>
 				</h6>
+			</div>
+			<div class="text-center">
 				<p class="text-center">
 					<br>
 				</p>
@@ -526,15 +541,22 @@
 		</div>
 	</div>
 </div>
-<!-- Footer - bloc-59 END -->
+<!-- bloc-59 END -->
 
 </div>
 <!-- Main container END -->
     
 
+<script src="./js/jquery-3.3.1.min.js?3586"></script>
+<script src="./js/bootstrap.bundle.min.js?8834"></script>
+<script src="./js/blocs.min.js?0"></script>
+<script src="./js/lazysizes.min.js" defer></script>
+<!-- Additional JS END -->
+
+
 
 <!-- Preloader -->
-<div id="page-loading-blocs-notifaction"></div>
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
 <!-- Preloader END -->
 
 </body>
